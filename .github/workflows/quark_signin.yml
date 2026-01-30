@@ -54,7 +54,7 @@ jobs:
           git push
 
       - name: 清理旧的工作流记录
-        uses: yxdz2020/delete-workflow-runs@v20251112
+        uses: yxdz2020/delete-workflow-runs@Latest
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
